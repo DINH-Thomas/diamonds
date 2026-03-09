@@ -54,7 +54,7 @@ This repository is a teaching project where you refactor a Jupyter notebook into
 1. Create an `.envrc` file at the root of the project so the virtualenv is activated automatically when you `cd` into the directory.  
 
     ```bash
-    echo 'dotenv' > .envrc
+    'echo 'dotenv' > .envrc
     direnv allow
     ```
 
