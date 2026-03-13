@@ -10,11 +10,14 @@ This repository is a teaching project where you refactor a Jupyter notebook into
 
 ## 1. Clone the repository
 
-1. Clone this repository and move into the project directory.  
+1. Fork this repository and clone it into the project directory. Then Create a new branch for your productionizing-ml project.
 
     ```bash
-    git clone git@github.com:vivadata/diamonds.git
+    gh repo fork vivadata/diamonds
+    git clone git@github.com:<your-username>/diamonds.git
     cd diamonds
+    # Create A new branch and switch to it
+    git checkout -b <your-username>-productioninizing-ml
     ```
 
 
@@ -23,7 +26,7 @@ This repository is a teaching project where you refactor a Jupyter notebook into
 1. Create a new virtual environment for this project.  
 
     ```bash
-    pyenv virtualenv 3.11.10 diamonds
+    pyenv virtualenv 3.11 diamonds
     ```
 
 
@@ -39,6 +42,14 @@ This repository is a teaching project where you refactor a Jupyter notebook into
     ```bash
     which python
     python --version
+    ```
+
+
+1. Install the package in develop mode.
+NB : The `-e` flag is used to install the package in develop mode.
+
+    ```bash
+    pip install -e .
     ```
 
 
