@@ -85,3 +85,17 @@ This repository is a teaching project where you refactor a Jupyter notebook into
   - Udpate   new script `src/diamonds/train.py` to train the model and save it in the `models` directory.
   - run `python -m src.diamonds.train` to train the model and save it in the `models` directory.
 
+## 5. Streamlit apps
+
+- Launch the existing diamonds demo:
+
+    ```bash
+    streamlit run front/app.py
+    ```
+
+- Launch the "Devinez le nombre" game:
+
+    ```bash
+    streamlit run front/app2.py
+    ```
+
