@@ -110,3 +110,12 @@ NB : The `-e` flag is used to install the package in develop mode.
     streamlit run front/app2.py
     ```
 
+- Launch the shared availability planner:
+
+        ```bash
+        streamlit run front/availability_planner.py
+        ```
+
+    This planner creates a shared URL with a `schedule_id` query parameter so four people can update the same two-week agenda with 2-hour slots on weekdays only.
+    When the app is deployed, define `AVAILABILITY_BASE_URL` so the shared link points to the public URL instead of `localhost`.
+
